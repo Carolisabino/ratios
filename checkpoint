@@ -1,0 +1,29 @@
+const submit= document.querySelector('.submit');
+const container = document.querySelector('.container');
+const container2 = document.querySelector('.container2');
+const ratios = document.querySelectorAll('.ratios');
+const score = document.querySelector('.score');
+
+
+let star_score = 3;
+
+submit.addEventListener('click', Onsubmit);
+
+function Onsubmit (){
+    score.textContent=star_score;
+    container.classList.add('hide');
+    container2.classList.remove('hide');
+}
+
+ratios.forEach(buttons =>{
+    buttons.addEventListener('click', handle_ratios);
+});
+
+function handle_ratios(event){
+    ratios.forEach(btn=>{
+        btn.classList.remove('active');
+    });
+
+    event.target.classList.add('active');
+    star_score=event.target.textContent;
+}

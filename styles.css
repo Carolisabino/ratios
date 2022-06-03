@@ -1,0 +1,110 @@
+*{
+    font-family: 'Overpass', sans-serif;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.submit{
+background-color:#eb9e03;
+border-radius:32px;
+display:center;
+cursor:pointer;
+color:#ffffff;
+font-family:Arial;
+font-size:17px;
+padding:10px 76px;
+text-decoration:none;
+text-shadow:0px 1px 0px #2f6627;
+}
+.submit:hover {
+background-color:#f5f0e8;
+color: #eb9e03;
+}
+.submit:active {
+position:center;
+top:1px;
+}
+
+.position{
+    text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 00px;
+  border: 2px solid rgb(31, 32, 30);
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgb(39, 39, 54);
+}
+
+
+.container2 {
+    display: none;
+    max-width: 400px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 00px;
+    border: 2px solid rgb(31, 32, 30);
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(39, 39, 54);
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color:white;
+    text-align: justify;
+}
+
+#ratio {
+    text-align: center;
+}
+
+
+.tksimage {
+    text-align: center;
+}
+
+.ratingmessage{
+    text-align: center;
+}
+
+#back {
+    background-color: black;
+}
+
+.buttons{
+    background-color:hsla(217, 12%, 63%, 0.098) ;
+    width: 2rem;
+    padding: 0.8rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.buttons:hover {
+    background-color:#eb9e03;
+    color:  #f5f0e8;
+}
+
+.selected-note {
+    background-color:#eb9e03;
+    color:  #f5f0e8;
+}
+
+.ratios {
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+    line-height: 1.5rem;
+}
